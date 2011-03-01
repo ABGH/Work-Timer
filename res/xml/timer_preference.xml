@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:summaryOff="Timer decrements from duration" android:summaryOn="Timer increments to duration" android:title="Timer Increment" android:key="inc_dec_key"></CheckBoxPreference>
+    <ListPreference android:entries="@array/timer_directions" android:entryValues="@array/timer_directions_values" android:key="timer_direction" android:summary="@string/timer_direction_description" android:title="@string/timer_direction" android:dialogTitle="@string/timer_direction"></ListPreference>
+    <com.frigidrain.worktimer.TimerDurationDialog android:title="@string/timer_duration" android:key="timer_duration"></com.frigidrain.worktimer.TimerDurationDialog>
+    <EditTextPreference android:title="erase" android:key="erase"></EditTextPreference>
+</PreferenceScreen>

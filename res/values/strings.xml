@@ -2,4 +2,16 @@
 <resources>
     <string name="hello">Hello World, MainActivity! Candy</string>
     <string name="app_name">Work Timer</string>
+    <string name="edit_menu">Edit</string>
+    <string-array name="timer_directions">
+        <item>Increment</item>
+        <item>Decrement</item>
+    </string-array>
+    <string-array name="timer_directions_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+        <string name="timer_direction">Timer Direction</string>
+        <string name="timer_direction_description">Direction of the timer countdown.</string>
+        <string name="timer_duration">Timer Duration</string>
 </resources>
